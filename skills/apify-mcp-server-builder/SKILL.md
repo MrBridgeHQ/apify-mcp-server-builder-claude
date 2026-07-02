@@ -167,6 +167,8 @@ apify create my-mcp-server --template ts-mcp-server      # Node + @modelcontextp
 apify create my-mcp-server --template python-mcp-server  # Python + FastMCP
 ```
 
+> **AI-assisted scaffolding.** The `ts-mcp-server` / `python-mcp-server` templates ship an `AGENTS.md` that Claude Code / Cursor / Codex auto-read for context. Add Apify's docs MCP (`claude mcp add apify "https://mcp.apify.com/?tools=docs" -t http`) to ground code in current Standby / MCP platform facts, and optionally `npx skills add apify/agent-skills`. Full workflow: Apify's [Build Actors with AI](https://docs.apify.com/platform/actors/development/quick-start/build-with-ai) guide.
+
 Minimal Node skeleton — using the **high-level `McpServer` API** (simpler for new code):
 
 ```ts
