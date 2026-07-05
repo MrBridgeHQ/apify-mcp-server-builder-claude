@@ -1,4 +1,4 @@
-# apify-mcp-server-builder — Claude Code Agent Skill
+# apify-mcp-server-builder - Claude Code Agent Skill
 
 An Agent Skill **for Claude** (Claude Code / claude.ai). **Target LLM: Claude.**
 
